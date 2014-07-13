@@ -14,8 +14,8 @@
 		"php": ">=5.4.0",
 		"ext-mbstring": "*",
 		"composer/installers": "~1.0",
-		"ruxon/framework": "v8.0",
-	        "ruxon/module-ruxon": "v8.0"
+		"ruxon/framework": "*",
+	        "ruxon/module-ruxon": "*"
 	},
 	
 	"autoload": {
