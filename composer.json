@@ -3,7 +3,7 @@
 	"description": "Ruxon Blog App",
 	"keywords": ["ruxon", "blog", "app"],
 	"homepage": "http://ruxon-framework.ru/",
-	"type": "library",
+	"type": "project",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/ruxon/blog-app/issues?state=open",
@@ -14,8 +14,8 @@
 		"php": ">=5.4.0",
 		"ext-mbstring": "*",
 		"composer/installers": "~1.0",
-		"ruxon/framework": "*",
-	        "ruxon/module-ruxon": "*"
+		"ruxon/framework": "v8.0",
+	        "ruxon/module-ruxon": "v8.0"
 	},
 	
 	"autoload": {
