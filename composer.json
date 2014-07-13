@@ -29,6 +29,5 @@
 	            "ruxon/module/Ruxon": ["ruxon/module-ruxon"]
 	        },
 	},
-        "minimum-stability": "dev"
-    }
+	"minimum-stability": "dev"
 }
