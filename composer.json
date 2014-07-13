@@ -13,12 +13,9 @@
 	"require": {
 		"php": ">=5.4.0",
 		"ext-mbstring": "*",
-		"composer/installers": "~1.0"
-	},
-	
-	"require-dev": {
-		"ruxon/framework": "dev-master",
-	        "ruxon/module-ruxon": "dev-master"
+		"composer/installers": "~1.0",
+		"ruxon/framework": "*",
+	        "ruxon/module-ruxon": "*"
 	},
 	
 	"autoload": {
