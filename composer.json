@@ -28,7 +28,7 @@
 	            "ruxon/framework": ["ruxon/framework"],
 	            "ruxon/module/Ruxon": ["ruxon/module-ruxon"]
 	        },
-	}
+	},
         "minimum-stability": "dev"
     }
 }
