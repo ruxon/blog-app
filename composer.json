@@ -13,7 +13,9 @@
 	"require": {
 		"php": ">=5.4.0",
 		"ext-mbstring": "*",
-		"composer/installers": "~1.0"
+		"composer/installers": "~1.0",
+        "ruxon/framework": "dev-master",
+        "ruxon/module-ruxon": "dev-master"
 	},
 	"autoload": {
 		"psr-4": { "ruxon\\": "" }
@@ -21,7 +23,9 @@
 	
 	"extra": {
         "installer-paths": {
-            ".": ["ruxon/blog-app"]
+            ".": ["ruxon/blog-app"],
+            "ruxon/framework": ["ruxon/framework"],
+            "ruxon/module/Ruxon": ["ruxon/module-ruxon"]
         }
     }
 }
