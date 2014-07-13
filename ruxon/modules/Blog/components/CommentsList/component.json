@@ -1,0 +1,15 @@
+{
+    "Name": "Список комментариев",
+    "Version": "8.0",
+
+    "Params": {
+        "Template": {
+            "Type": "String",
+            "Default": "Index"
+        },
+        
+        "ObjectId"  : {
+            "Type": "Integer"
+        }
+    }
+}

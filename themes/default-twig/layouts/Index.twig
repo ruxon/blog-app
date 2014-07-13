@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="keywords" content="<?php echo $this->getMetaKeywords()?>" />
+    <meta name="description" content="<?php echo $this->getMetaDescription()?>" />
+    <title>{{ MetaTitle }}</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    {{ ClientScript|raw }}
+    
+    <link rel="stylesheet" type="text/css" href="{{ Url }}/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="{{ Url }}/css/custom.css" />
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="{{ Url }}/css/common-ie6.css" />
+        <link rel="stylesheet" type="text/css" href="{{ Url }}/css/custom-ie6.css" />
+    <![endif]-->
+    
+    <!--[if lt IE 9]> 
+	 	<script type="text/javascript" src="{{ Url }}/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <div id="central-box">
+            
+            <!-- header start -->
+            <header id="main">
+                <nav id="top-nav">
+                    <ul>
+                        <li><a href="/about">О нас</a></li>
+                        <li><a href="/dostavka-i-oplata">Доставка и оплата</a></li>
+                        <li><a href="/kontakty">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <a href="/" class="logo">
+                    Ваш сайт
+                </a>
+                <br class="clear" />
+            </header>
+            <!-- header end -->
+            
+            <!-- content start -->
+            <div id="content" class="inner-page">
+
+                <div class="center-col">
+
+                    {{ Content|raw }}
+
+                </div>
+                <br class="clear" />
+                
+            </div>
+            <!-- content end -->
+            
+            <footer>
+                <div>© {{ "now"|date('Y') }} Ваш сайт. Все права защищены.</div>
+                <br class="clear" />
+            </footer>
+            
+        </div>
+    </div>
+</body>
+</html>
