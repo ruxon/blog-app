@@ -14,12 +14,5 @@ return array(
         'Description' => '',
         'Version' => '8.0',
         'DbRevision' => '-1',
-    ),
-
-    'Blog' => array(
-        'Name' => 'Блог',
-        'Description' => '',
-        'Version' => '8.0',
-        'DbRevision' => '2',
-    ),
+    )
 );
