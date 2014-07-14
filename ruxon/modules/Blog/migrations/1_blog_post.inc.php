@@ -31,6 +31,23 @@ return array(
                 'Type' => 'tinyint(1) unsigned',
                 'Default' => '0',
             )
+        ),
+
+        'Insert' => array(
+            array(
+                'name' => 'Первая запись в блоге',
+                'post_date' => date("Y-m-d H:i:s"),
+                'content' => 'Текст первого поста в блоге',
+                'is_active' => true
+            ),
+
+            array(
+                'name' => 'Вторая запись в блоге',
+                'post_date' => date("Y-m-d H:i:s"),
+                'content' => 'Текст второго поста в блоге',
+                'cover' => 'post.jpg',
+                'is_active' => true
+            )
         )
     )
 );
