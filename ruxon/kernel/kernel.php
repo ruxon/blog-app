@@ -9,7 +9,21 @@ $_ENV['RUXON_REGISTRY_EXTENSIONS'] = array();
 
 define('RUXON_VALID', true);
 
+if(!defined('RX_FRAMEWORK_PATH')) define('RX_FRAMEWORK_PATH', realpath(dirname(__FILE__).'/../framework'));
+
 include(dirname(__FILE__).'/functions.php');
+
+if (!class_exists('RxException')) {
+    include_once(RX_FRAMEWORK_PATH.'/src/Core/Exceptions/RxException.class.php');
+}
+
+if (!class_exists('Core')) {
+    include(RX_FRAMEWORK_PATH.'/src/Core/Core.class.php');
+}
+
+if (!class_exists('Loader')) {
+    include(RX_FRAMEWORK_PATH.'/src/Core/Loader.class.php');
+}
 
 spl_autoload_register('rx_autoload');
 set_exception_handler('rx_exception_handler');

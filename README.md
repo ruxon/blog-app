@@ -16,5 +16,5 @@ php composer.phar create-project --prefer-dist --stability=dev ruxon/blog-app .
 
 После этого неоходимо установить модуль блога, выполнив в консоли:
 ~~~
-php console/index.php Ruxon Install --module=Blog
+php console/index.php Ruxon Module install module=Blog
 ~~~
