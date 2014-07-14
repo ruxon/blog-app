@@ -51,7 +51,7 @@
 
     <div class="blog-header">
         <h1 class="blog-title">Ruxon Framework Blog App</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+        <p class="lead blog-description">Приложение на Ruxon Framework.</p>
     </div>
 
     <div class="row">
