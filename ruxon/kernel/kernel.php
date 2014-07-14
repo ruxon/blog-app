@@ -10,9 +10,6 @@ $_ENV['RUXON_REGISTRY_EXTENSIONS'] = array();
 define('RUXON_VALID', true);
 
 include(dirname(__FILE__).'/functions.php');
-include(dirname(__FILE__).'/../framework/src/Core/Exceptions/RxException.class.php');
-include(dirname(__FILE__).'/../framework/src/Core/Core.class.php');
-include(dirname(__FILE__).'/../framework/src/Core/Loader.class.php');
 
 spl_autoload_register('rx_autoload');
 set_exception_handler('rx_exception_handler');
@@ -32,10 +29,10 @@ if (RUXON_DEBUG) {
 }
 
 define('RUXON_NAME', 'Ruxon Framework');
-define('RUXON_VERSION', '7.4');
+define('RUXON_VERSION', '8.0');
 
 // Revision
-define('RUXON_REVISION', 'release');
+define('RUXON_REVISION', 'beta');
 define('RUXON_VERSION_FULL', RUXON_VERSION.' '.RUXON_REVISION);
 
 Loader::loadFramework();
