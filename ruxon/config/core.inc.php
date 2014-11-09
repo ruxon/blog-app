@@ -90,6 +90,10 @@ return array(
                         'class' => '\\PhpMessageSource'
                     ]
                 ]
+            ],
+
+            'modules' => [
+                'class' => 'FileAvailableModules'
             ]
         ),
         
